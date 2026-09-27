@@ -1,0 +1,6 @@
+During manufacturing of API Product A at the Bangalore API Manufacturing Site
+on 26 September 2026, the granulation temperature exceeded the approved
+process parameter range for approximately 8 minutes in batch BATCH-2026-001.
+The event was identified during routine manufacturing monitoring.
+No confirmed product quality impact has been established.
+The deviation was reported by Manufacturing.

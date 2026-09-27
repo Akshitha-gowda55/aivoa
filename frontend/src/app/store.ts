@@ -1,10 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-
-const appReducer = (state = { initialized: true }) => state;
+import deviationWorkflowReducer from "@/features/deviations/deviationSlice";
 
 export const store = configureStore({
   reducer: {
-    app: appReducer,
+    deviationWorkflow: deviationWorkflowReducer,
   },
 });
 

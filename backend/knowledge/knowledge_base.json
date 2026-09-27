@@ -1,0 +1,174 @@
+[
+  {
+    "id": "kb-001",
+    "authority": "FDA",
+    "source_type": "regulatory_guidance",
+    "title": "Pharmaceutical inspections and compliance risk considerations",
+    "topic": "risk_assessment",
+    "tags": [
+      "deviation",
+      "quality_risk",
+      "patient_risk",
+      "process",
+      "compliance"
+    ],
+    "content": "FDA compliance review considers inspection observations, evidence, company responses, applicable requirements, technical standards, scientific information, facility and product profile, and the potential risk of quality deviations. Risk assessment should therefore consider the actual evidence available rather than treating every deviation as having the same consequence.",
+    "source_url": "https://www.fda.gov/drugs/guidance-compliance-regulatory-information/pharmaceutical-inspections-and-compliance",
+    "is_synthetic": false
+  },
+  {
+    "id": "kb-002",
+    "authority": "FDA",
+    "source_type": "inspection_observation",
+    "title": "Investigation of deviations and quality events",
+    "topic": "deviation_investigation",
+    "tags": [
+      "deviation",
+      "investigation",
+      "root_cause",
+      "impact_assessment",
+      "CAPA"
+    ],
+    "content": "FDA inspection observations include conditions or practices that investigators consider objectionable. Pharmaceutical quality investigations commonly require evaluation of the event, affected material or product, potential quality impact, root cause, and corrective or preventive actions.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-references/inspection-observations",
+    "is_synthetic": false
+  },
+  {
+    "id": "kb-003",
+    "authority": "ICH",
+    "source_type": "quality_risk_management",
+    "title": "ICH Q9 quality risk management",
+    "topic": "risk_assessment",
+    "tags": [
+      "ICH",
+      "Q9",
+      "quality_risk_management",
+      "severity",
+      "probability",
+      "risk"
+    ],
+    "content": "Quality risk management should be based on scientific knowledge and ultimately link to protection of the patient. The level of effort, formality and documentation should be commensurate with the level of risk.",
+    "source_url": "https://database.ich.org/sites/default/files/ICH_Q9-R1_Document_Step2_Guideline_2021_1118.pdf",
+    "is_synthetic": false
+  },
+  {
+    "id": "kb-004",
+    "authority": "FDA",
+    "source_type": "warning_letter",
+    "title": "API manufacturing process and deviation investigation pattern",
+    "topic": "api_manufacturing",
+    "tags": [
+      "API",
+      "manufacturing",
+      "deviation",
+      "process_parameter",
+      "investigation",
+      "CAPA"
+    ],
+    "content": "FDA enforcement cases involving API manufacturers demonstrate that repeated or inadequately investigated manufacturing deviations can become significant compliance concerns, particularly when the manufacturer cannot demonstrate appropriate investigation, assessment of affected product, root cause analysis, and corrective action.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/cdymax-india-pharma-private-limited-715022-11132025",
+    "is_synthetic": false
+  },
+  {
+    "id": "kb-005",
+    "authority": "FDA",
+    "source_type": "warning_letter",
+    "title": "Process parameter deviation and product impact assessment",
+    "topic": "process_parameter",
+    "tags": [
+      "process_parameter",
+      "manufacturing",
+      "batch",
+      "product_impact",
+      "deviation"
+    ],
+    "content": "FDA enforcement examples involving manufacturing process deviations emphasize evaluating the effect of the deviation on affected batches or material and determining whether the process remained within validated or approved conditions.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/teva-pharmaceutical-and-chemical-hangzhou-co-ltd-516381-04052017",
+    "is_synthetic": false
+  },
+  {
+    "id": "kb-006",
+    "authority": "SYNTHETIC_DEMO",
+    "source_type": "synthetic_historical_pattern",
+    "title": "Limited-duration temperature excursion with routine detection",
+    "topic": "process_parameter",
+    "tags": [
+      "temperature",
+      "granulation",
+      "process_parameter",
+      "short_duration",
+      "routine_monitoring",
+      "no_confirmed_impact"
+    ],
+    "content": "Synthetic demonstration pattern: A manufacturing temperature parameter exceeds its approved range for a short documented period, the event is detected through routine monitoring, the process is returned to the approved range, and no confirmed product-quality impact is available at the time of reporting. Appropriate assessment should consider parameter criticality, excursion magnitude, duration, affected batch, material status, and available test or investigation evidence.",
+    "source_url": null,
+    "is_synthetic": true
+  },
+  {
+    "id": "kb-007",
+    "authority": "SYNTHETIC_DEMO",
+    "source_type": "synthetic_historical_pattern",
+    "title": "Process excursion with confirmed quality impact",
+    "topic": "process_parameter",
+    "tags": [
+      "process_parameter",
+      "quality_impact",
+      "confirmed_impact",
+      "batch",
+      "deviation"
+    ],
+    "content": "Synthetic demonstration pattern: A manufacturing process parameter moves outside its approved range and subsequent investigation or testing confirms an adverse quality effect on affected material or product. Confirmed quality impact is stronger evidence for risk assessment than a hypothetical possibility alone.",
+    "source_url": null,
+    "is_synthetic": true
+  },
+  {
+    "id": "kb-008",
+    "authority": "SYNTHETIC_DEMO",
+    "source_type": "synthetic_historical_pattern",
+    "title": "Repeated process deviation indicating possible systemic issue",
+    "topic": "recurrence",
+    "tags": [
+      "recurrence",
+      "repeat_deviation",
+      "systemic",
+      "CAPA",
+      "process"
+    ],
+    "content": "Synthetic demonstration pattern: The same or closely related process deviation occurs repeatedly across batches or over time. Recurrence increases the importance of evaluating systemic causes, effectiveness of previous corrective actions, process controls, and affected product history.",
+    "source_url": null,
+    "is_synthetic": true
+  },
+  {
+    "id": "kb-009",
+    "authority": "SYNTHETIC_DEMO",
+    "source_type": "synthetic_historical_pattern",
+    "title": "Deviation detected before affected material proceeds",
+    "topic": "containment",
+    "tags": [
+      "containment",
+      "detection",
+      "material_status",
+      "deviation",
+      "quality_control"
+    ],
+    "content": "Synthetic demonstration pattern: A deviation is detected promptly, affected material is identified and contained, and no affected material proceeds to the next stage before assessment. Effective detection and containment are relevant factors when determining potential impact, while they do not by themselves eliminate the need for investigation.",
+    "source_url": null,
+    "is_synthetic": true
+  },
+  {
+    "id": "kb-010",
+    "authority": "SYNTHETIC_DEMO",
+    "source_type": "synthetic_historical_pattern",
+    "title": "Insufficient evidence for definitive risk conclusion",
+    "topic": "evidence_gap",
+    "tags": [
+      "evidence_gap",
+      "uncertainty",
+      "risk_assessment",
+      "investigation"
+    ],
+    "content": "Synthetic demonstration pattern: A deviation description provides the event and duration but does not provide parameter criticality, affected material status, testing results, batch impact assessment, or recurrence information. The assessment should explicitly identify these evidence gaps instead of inventing conclusions.",
+    "source_url": null,
+    "is_synthetic": true
+  }
+]
