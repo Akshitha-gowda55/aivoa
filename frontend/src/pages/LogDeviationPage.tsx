@@ -242,7 +242,7 @@ export function LogDeviationPage() {
                   <Check size={15} strokeWidth={2.5} />
                 </div>
                 <div>
-                  <p className="text-sm font-bold text-emerald-900">
+                  <p className="text-sm font-medium text-emerald-900">
                     AI extraction complete
                   </p>
                   <p className="mt-0.5 text-xs leading-5 text-emerald-700">
@@ -315,7 +315,7 @@ export function LogDeviationPage() {
             <div className="my-7 h-px bg-slate-100" />
 
             <div className="mb-4">
-              <p className="text-sm font-bold text-slate-900">
+              <p className="text-sm font-medium text-slate-900">
                 AI assessment
               </p>
               <p className="mt-1 text-xs text-slate-400">
@@ -398,12 +398,12 @@ export function LogDeviationPage() {
                   <Sparkles size={18} />
                 </div>
                 <div>
-                  <p className="text-sm font-bold text-white">AIVOA Copilot</p>
+                  <p className="text-sm font-medium text-white">AIVOA Copilot</p>
                   <p className="text-[11px] text-slate-400">
                     Deviation intelligence
                   </p>
                 </div>
-                <span className="ml-auto rounded-full border border-emerald-400/20 bg-emerald-400/10 px-2 py-1 text-[9px] font-bold uppercase tracking-wider text-emerald-300">
+                <span className="ml-auto rounded-full border border-emerald-400/20 bg-emerald-400/10 px-2 py-1 text-[11px] font-medium text-emerald-300">
                   AI ready
                 </span>
               </div>
@@ -411,7 +411,7 @@ export function LogDeviationPage() {
 
             <div className="p-5">
               <div className="mb-5">
-                <p className="text-sm font-semibold text-white">
+                <p className="text-sm font-medium text-white">
                   Start from the source
                 </p>
                 <p className="mt-1 text-xs leading-5 text-slate-400">
@@ -424,7 +424,7 @@ export function LogDeviationPage() {
                 <button
                   type="button"
                   onClick={() => setActiveInput("pdf")}
-                  className={`rounded-lg px-3 py-2 text-xs font-semibold transition ${
+                  className={`rounded-lg px-3 py-2 text-xs font-medium transition ${
                     activeInput === "pdf"
                       ? "bg-white text-slate-900 shadow"
                       : "text-slate-400 hover:text-white"
@@ -436,7 +436,7 @@ export function LogDeviationPage() {
                 <button
                   type="button"
                   onClick={() => setActiveInput("text")}
-                  className={`rounded-lg px-3 py-2 text-xs font-semibold transition ${
+                  className={`rounded-lg px-3 py-2 text-xs font-medium transition ${
                     activeInput === "text"
                       ? "bg-white text-slate-900 shadow"
                       : "text-slate-400 hover:text-white"
@@ -489,10 +489,10 @@ export function LogDeviationPage() {
                         size={26}
                         className="animate-spin text-emerald-400"
                       />
-                      <span className="mt-3 text-sm font-semibold text-white">
+                      <span className="mt-3 text-sm font-medium text-white">
                         Reading and assessing...
                       </span>
-                      <span className="mt-1 text-[11px] text-slate-500">
+                      <span className="mt-1 text-xs text-slate-500">
                         Extraction → impact → severity
                       </span>
                     </>
@@ -501,10 +501,10 @@ export function LogDeviationPage() {
                       <div className="upload-icon">
                         <UploadCloud size={21} />
                       </div>
-                      <span className="mt-3 text-sm font-semibold text-white">
+                      <span className="mt-3 text-sm font-medium text-white">
                         Drop a PDF here
                       </span>
-                      <span className="mt-1 text-[11px] text-slate-500">
+                      <span className="mt-1 text-xs text-slate-500">
                         or click to browse · max 10 MB
                       </span>
                     </>
@@ -524,7 +524,7 @@ export function LogDeviationPage() {
                     type="button"
                     disabled={processing}
                     onClick={() => void processText()}
-                    className="mt-3 flex w-full items-center justify-center gap-2 rounded-xl bg-emerald-500 px-4 py-3 text-xs font-bold text-white transition hover:bg-emerald-400 disabled:cursor-not-allowed disabled:opacity-50"
+                    className="mt-3 flex w-full items-center justify-center gap-2 rounded-xl bg-emerald-500 px-4 py-3 text-xs font-semibold text-white transition hover:bg-emerald-400 disabled:cursor-not-allowed disabled:opacity-50"
                   >
                     {processing ? (
                       <>
@@ -553,13 +553,13 @@ export function LogDeviationPage() {
 
               {aiResult && !processing && (
                 <div className="mt-5 space-y-2">
-                  <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-slate-500">
+                  <p className="text-[11px] font-medium text-slate-500">
                     Analysis complete
                   </p>
 
                   <div className="grid grid-cols-2 gap-2">
                     <div className="rounded-xl border border-white/10 bg-white/5 p-3">
-                      <p className="text-[9px] font-semibold uppercase tracking-wider text-slate-500">
+                      <p className="text-[11px] font-medium text-slate-500">
                         Impact
                       </p>
                       <p
@@ -570,7 +570,7 @@ export function LogDeviationPage() {
                     </div>
 
                     <div className="rounded-xl border border-white/10 bg-white/5 p-3">
-                      <p className="text-[9px] font-semibold uppercase tracking-wider text-slate-500">
+                      <p className="text-[11px] font-medium text-slate-500">
                         Severity
                       </p>
                       <p
@@ -595,7 +595,7 @@ export function LogDeviationPage() {
                   {aiResult.knowledge_matches.length > 0 && (
                     <div className="rounded-xl border border-white/10 bg-white/[0.03] p-3">
                       <div className="mb-3 flex items-center justify-between">
-                        <p className="flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-[0.12em] text-slate-300">
+                        <p className="flex items-center gap-1.5 text-[11px] font-medium text-slate-300">
                           <BookOpen size={12} className="text-emerald-400" />
                           Evidence used by AI
                         </p>
@@ -605,7 +605,7 @@ export function LogDeviationPage() {
                       </div>
 
                       <div className="mb-3">
-                        <p className="mb-2 text-[9px] font-bold uppercase tracking-wider text-blue-300">
+                        <p className="mb-2 text-[11px] font-medium text-blue-300">
                           Regulatory context
                         </p>
 
@@ -649,7 +649,7 @@ export function LogDeviationPage() {
                       </div>
 
                       <div>
-                        <p className="mb-2 text-[9px] font-bold uppercase tracking-wider text-violet-300">
+                        <p className="mb-2 text-[11px] font-medium text-violet-300">
                           Demonstration patterns
                         </p>
 
@@ -740,7 +740,7 @@ function AssessmentCard({
   return (
     <div className="rounded-2xl border border-slate-200 bg-slate-50/70 p-4">
       <div className="mb-3 flex items-center justify-between">
-        <p className="text-xs font-bold text-slate-700">{label}</p>
+        <p className="text-xs font-semibold text-slate-700">{label}</p>
 
         {level && (
           <span
